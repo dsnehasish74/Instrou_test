@@ -1,0 +1,112 @@
+.workflow-container{
+    margin:auto 6%;
+}
+.wr_1{
+    margin: 10% 6%;
+    display: flex;
+    flex-direction: row;
+}
+.wr_1_text{
+    margin: auto 0;
+}
+
+.workflow_pic{
+    width: 50%;
+    height: 50%;
+}
+
+.automation{
+    width: 100%;
+    background-color: #172B4D;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.automation h2{
+    color: white;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.automation h5{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.automation button{
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    transition: all 0.2s;
+}
+
+.automation button:hover{
+    background-color: white;
+    color: #253858;
+}
+@media(max-width: 1100px){
+
+    .wr_1{
+        margin: 10% 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .workflow_pic{
+        width: 100%;
+        height: 100%;
+    }
+    .app_container{
+        margin: 0px!important;
+    }
+    
+}
+
+.App_dowload{
+    background-color:  #DFE1E6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.app_container{
+    margin: 0 20%;
+    text-align: center;
+    padding-top: 5%;
+    background-color:#fff;
+    padding-bottom: 20px;
+}
+.app_container i{
+    font-size: 3rem;
+    padding-top: 20px;
+    color: #0052CC;
+}
+
+h2{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: #253858;   
+}
+
+h5{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #253858;
+}
+
+.play{
+    width: 180px;
+}
+#test-2 img{
+
+    margin-top: 20px;
+    width: 50%;
+
+}
+
+.story_link{
+    color: lawngreen;
+    text-decoration: none;
+}
