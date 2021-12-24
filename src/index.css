@@ -1,14 +1,49 @@
 body {
   margin: 0;
   overflow-x: hidden !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.Text {
+  color: #fc0000;
+  z-index: 1000;
+  font-size: 64px;
+}
+.Name {
+  color: #fff;
+}
+.santaImage {
+  width: 200px;
+}
+.TextConatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+canvas {
+  z-index: -1 !important;
+}
+.Footer {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Text {
+    font-size: 32px;
+  }
 }
