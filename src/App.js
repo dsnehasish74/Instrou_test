@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Particles from "react-tsparticles";
-import santa from "./santa.svg";
+import newYear from "./newYear.svg";
 import audio from "./cmsx.mp3";
 
 const App = () => {
@@ -110,12 +110,14 @@ const App = () => {
         }}
       />
       <div className="TextConatiner">
-        <img src={santa} className="santaImage" />
+        <img src={newYear} alt="Santa" className="santaImage" />
         <h1 className="Text">
-          Merry Christmas<span className="Name"> Rikta</span>
+          Happy New Year<span className="Name"> Rikta</span>
         </h1>
       </div>
-      <h1 className="Footer">Made with ❤️ by Snehasish</h1>
+      <h1 className="Footer">
+        Made with <span>{"❤️"}</span> by Snehasish
+      </h1>
     </div>
   );
 };
